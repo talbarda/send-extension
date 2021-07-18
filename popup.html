@@ -1,0 +1,14 @@
+<html>
+<head>
+	<script src='popup.js'></script>
+</head>
+<meta charset="UTF-8">
+<script src = "background.js" type="text/javascript"></script>
+<body>
+<h4> Whatsapp Sender </h4>
+<p>Country Code:<input type="text" id="countrycode" required minlength="1" maxlength="3" size="5" placeholder="Country Code" pattern="\D" value="972"></p>
+<p>Phone Number:<input type="text" id="phonenumber" required minlength="9" maxlength="16" size="20" placeholder="Phone Number" pattern="\D"></p>
+<p>Text:<textarea id="messagecontent"rows="5" cols="50" dir="rtl">אהלן, אשמח לשמוע פרטים על הדירה ב** (URL). מתי אפשר לבוא לראות אותה?</textarea> 
+<button id="sendmessage" type="button">Send</button>
+</body>
+</html>

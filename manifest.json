@@ -1,0 +1,18 @@
+{
+  "name": "WhatsApp easy send",
+  "version": "0.0.0.1",
+  "description": "Easy send WhatsApp by entering number and text. If there's a 'URL' place holder in the text, will replace it with the active url",
+  "manifest_version": 2,
+  "icons": {
+    "16": "WhatsApp.png",
+    "48": "WhatsApp.png",
+    "128": "WhatsApp.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "A popup will come"
+  }
+}
